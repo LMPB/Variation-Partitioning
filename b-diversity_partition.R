@@ -21,7 +21,6 @@ spe.pa<- decostand(spe.cut,"pa")
 #The traditional betadiversity partition uses presence-absence data
 #We also used the betapair abund using Bray-Curtis
 beta.pair=beta.pair(spe.pa, index.family = "jaccard")
-
 nestedness <- data.frame(t(combn(rownames(spe.pa),2)), as.numeric(beta.pair$beta.jne))
 names(nestedness) <- c("S1", "S2", "nestedness")
 turnover <- data.frame(t(combn(rownames(spe.pa),2)), as.numeric(beta.pair$beta.jtu))
