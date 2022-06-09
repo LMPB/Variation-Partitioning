@@ -1,5 +1,5 @@
 # Scripts for manuscript entitled:_"Environment selects, but spatial factors have different impact on rare and dominant aquatic bacteria"_
-###### DOI: https://doi.org/10.1007/s00248-020-01560-3
+###### 
 
 
 
