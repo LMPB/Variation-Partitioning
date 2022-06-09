@@ -16,7 +16,9 @@ In this manuscript we applied the variation partitioning on bacterial freshwater
 This repo conteins all the scripts used to statistical analysis and figures showed in the manuscript, including:
 
 * _[maps_to_GitHub.R](https://github.com/LMPB/Occupancy-Frequency-Distribution/blob/master/maps_to_GitHub.R)_: Codes used to obtain the map plot showed in the main text and supplement;
-* _[statistics_to_GitHub.R]()_: Codes used to analyse and make figures showed in the main text and supplement;
+* _[b-diversity_partition.R]()_: Codes used to analyse and make figures showed in the main text;
+* _[raup-Crick.R]()_: Codes used to analyse and make figures showed in the main text;
+* _[variation_partitioning.R]()_: Codes used to analyse and make figures showed in the main text;
 
 
 ## Dataset
