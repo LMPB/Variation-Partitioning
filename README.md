@@ -17,8 +17,8 @@ This repo conteins all the scripts used to statistical analysis and figures show
 
 * _[maps_to_GitHub.R](https://github.com/LMPB/Occupancy-Frequency-Distribution/blob/master/maps_to_GitHub.R)_: Codes used to obtain the map plot showed in the main text and supplement;
 * _[b-diversity_partition.R](https://github.com/LMPB/Variation-Partitioning/blob/main/b-diversity_partition.R)_: Codes used to analyse and make figures showed in the main text;
-* _[raup-Crick.R]()_: Codes used to analyse and make figures showed in the main text;
-* _[variation_partitioning.R]()_: Codes used to analyse and make figures showed in the main text;
+* For the Raup-Crick analysis we applied the scripts provided by _[Chase et al. (2011) Using null models to disentangle variation in community dissimilarity from variation in α-diversity](https://doi.org/10.1890/ES10-00117.1)_ and _[Stegen et al. (2013) Quantifying community assembly processes and identifying features that impose them](https://doi.org/10.1038/ismej.2013.93)_, for presence-absence and abundance data, respsectively.
+* _[variation_partitioning.R](https://github.com/LMPB/Variation-Partitioning/blob/main/varpart_to_Github.R)_: Codes used to analyse and make figures showed in the main text;
 
 
 ## Dataset
