@@ -7,6 +7,10 @@ library(spdep)
 ######################################
 ###Beta-diversity Partitioning Step###
 ######################################
+#import data
+#ASVs table: rows are asvs, columns are sites
+#Environmental table: rows are sites, environmental variables are columns
+
 spe <- read.csv("C:/The/way/to/your/data/asv_table_cleared_rarefied.csv", header=TRUE, row.names = 1, sep =",")
 spe <- t(spe)
 spe_rarefy<-rrarefy(spe,min(rowSums(spe)))
